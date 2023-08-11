@@ -1,0 +1,1 @@
+esbuild is erroneously resolving relative imports from baseURL. To replicate, run `npm run esbuild` in the ts directory. `app.ts` outght to import `hello.ts`, not `hello.json`, but the generated code is `var hello_default = { message: "I AM JSON" };`
