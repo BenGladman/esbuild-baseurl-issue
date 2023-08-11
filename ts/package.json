@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "esbuild": "esbuild src/app/app.ts --bundle --platform=node --outdir=build",
-    "tsc": "tsc"
+    "esbuild": "esbuild src/app/app.ts --bundle --platform=node --outdir=dist-esbuild",
+    "tsc": "tsc --outDir dist-tsc"
   },
   "author": "",
   "license": "ISC",
